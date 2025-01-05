@@ -6,6 +6,6 @@ def chat_groq(
         temperature=0.5,
         ) -> ChatGroq:
 
-    return ChatGroq(model=model, temperature=temperature)
+    return ChatGroq(model=model, temperature=temperature, streaming=True)
 
 
