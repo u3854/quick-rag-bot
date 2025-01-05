@@ -7,6 +7,7 @@ __pycache__/
 *.so
 
 .documents/
+test.ipynb
 
 # Distribution / packaging
 .Python
